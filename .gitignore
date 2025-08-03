@@ -1,0 +1,55 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+venv310/
+ENV/
+env/
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs and outputs
+*.log
+*.out
+*.bak
+
+# Jupyter Notebook cache
+*.nbconvert.ipynb
+
+# Python packaging
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Data files (optional, if data is too large or sensitive)
+# Data files (optional, if data is too large or sensitive)
+data/*
+!data/*.dvc
+
+# Ignore CSV and TXT files globally
+*.csv
+*.txt
+
+# Plot and model outputs
+reports/figures/
+models/
+*.pkl
+*.joblib
+
+# Config files
+.env
+*.env
