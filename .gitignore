@@ -53,3 +53,5 @@ models/
 # Config files
 .env
 *.env
+
+data/
